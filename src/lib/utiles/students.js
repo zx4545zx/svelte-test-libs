@@ -1,6 +1,4 @@
 import Students from "../../database/students.json"
-// import fs from "fs"
-// import path from "path";
 
 export const saveStd = (name, gender) => {
   let id = parseInt(Students[Students.length - 1].ID) + 1;
